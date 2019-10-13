@@ -10,7 +10,7 @@ while(i<=num):
     count = i
     for item in lst:
         total = total + item**i
-        if(total == num or total%num==0):
+        if(total%num==0):
             print("Yes! This number is special")
             flag=1
             break
