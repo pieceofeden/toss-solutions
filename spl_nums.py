@@ -11,7 +11,9 @@ while(i<=num):
     for item in lst:
         total = total + item**i
         if(total%num==0):
+            k=total/num
             print("Yes! This number is special")
+            print(k)
             flag=1
             break
         else:
@@ -22,4 +24,6 @@ while(i<=num):
         count+=1
         i=count
 if(flag==0):
+    k=-1
     print("Nope, this isnt")
+    print(k)
